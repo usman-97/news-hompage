@@ -1,0 +1,25 @@
+%btn {
+    display: inline-block;
+    padding: 15px 20px;
+    margin: 3px;
+    width: 180px;
+
+    &:hover {
+        transform: scale(.98);
+    }
+}
+
+.btn-primary {
+    @extend %btn;
+    background-color: $soft-red;
+    color: $very-dark-blue;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+
+    &:hover {
+        background-color: $very-dark-blue;
+        color: $white-colour;
+    }
+}

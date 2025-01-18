@@ -1,0 +1,37 @@
+.top-trending-news {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 100px;
+
+    .trending-news {
+        display: flex;
+
+        img {
+            height: 50%;
+        }
+
+        div {
+            margin-left: 20px;
+            margin-right: 50px;
+
+            h2 {
+                margin-bottom: 10px;
+                color: $soft-red;
+                font-size: 2rem;
+            }
+
+            h3 {
+                margin-bottom: 10px;
+                font-weight: 700;
+
+                a:hover {
+                    color: $soft-red;
+                }
+            }
+
+            p {
+                line-height: 1.7;
+            }
+        }
+    }
+}

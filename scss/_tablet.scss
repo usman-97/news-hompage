@@ -1,0 +1,43 @@
+@media only screen and (max-width: 1050px) and (min-width: 769px) {
+    .news-content-container {
+        flex-direction: column;
+
+        .news-content {
+            width: 100%;
+            margin-bottom: 50px;
+        }
+
+        .content {
+            h1 {
+                font-size: 3.5rem;
+            }
+
+            .news {
+                padding: 0;
+                padding-left: 10px;
+
+                p {
+                    margin-bottom: 30px;
+                }
+            }
+        }
+
+        .sidebar {
+            width: 100%;
+            margin: 0;
+        }
+    }
+
+    .top-trending-news {
+        display: block;
+
+        .trending-news {
+            margin-top: 30px;
+
+            img {
+                height: 15%;
+                width: 15%;
+            }
+        }
+    }
+}

@@ -32,7 +32,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/usman-97/news-hompage
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://usman-97.github.io/news-hompage/
 
 ## My process
 
@@ -47,4 +47,4 @@ Users should be able to:
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [usman-97](https://www.frontendmentor.io/profile/usman-97)

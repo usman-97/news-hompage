@@ -25,6 +25,8 @@ ul {
 }
 
 footer {
+    grid-column: 1 / 4;
+    grid-row: -1;
     text-align: center;
 
     a {
@@ -34,12 +36,15 @@ footer {
 }
 
 .container {
-    margin: 100px auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 1fr);
+    grid-template-rows: repeat(5, auto);
+    column-gap: 40px;
+    row-gap: 30px;
+    max-width: 100%;
     min-height: 100dvh;
+    min-height: 100vh;
+    margin: 5%;
     background-color: $bg-colour;
 }
 

@@ -1,26 +1,14 @@
 @media only screen and (max-width: 768px) {
     .container {
-        justify-content: start;
+        display: block;
         width: 100%;
         margin: 0;
         padding: 30px 20px;
     }
 
-    .desktop-hero-img {
-        display: none;
-    }
-
-    .mobile-hero-img {
-        width: 100%;
-        height: 300px;
-        display: block;
-        background-image: url('../assets/images/image-web-3-mobile.jpg');
-        background-size: cover;
-        background-repeat: no-repeat;
-    }
-
     .nav{
         align-items: end;
+        margin-bottom: 3em;
 
         ul {
             display: none;
@@ -78,59 +66,47 @@
         opacity: 0.5;
     }
 
-    .news-content-container {
-        display: block;
-        width: 100%;
+    .hero-img {
+        margin-bottom: 2em;
 
-        .news-content {
-            width: 100%;
+        .desktop-hero-img{
+            display: none;
         }
-
-        .content {
+    
+        .mobile-hero-img {
+            width: 100%;
+            height: 300px;
             display: block;
-
-            h1 {
-                width: 100%;
-                font-size: 3rem;
-            }
-
-            .news {
-                width: 100%;
-                padding: 0;
-                
-                p {
-                    margin: 0;
-                    margin-top: 10px;
-                }
-
-                a {
-                    margin-top: 30px;
-                    margin-bottom: 80px;
-                }
-            }
-        }
-
-        .sidebar {
-            width: 100%;
-            margin: 0;
+            background-image: url('../assets/images/image-web-3-mobile.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
         }
     }
 
-    .top-trending-news {
-        display: block;
-        margin-top: 60px;
+    .news-heading {
+        margin-bottom: 1em;
 
-        .trending-news {
-            margin-top: 30px;
+        h1 {
+            font-size: 3rem;
+        }
+    }
 
-            img {
-                height: 30%;
-                width: 30%;
-            }
+    .news-content {
+        margin-bottom: 3em;
 
-            div {
-                margin-right: 0;
-            }
+        p {
+            margin-bottom: 1.5em;
+        }
+    }
+
+    .sidebar {
+        margin-bottom: 3em;
+    }
+
+    .trending-news {
+        img {
+            height: 30%;
+            width: 30%;
         }
     }
 }

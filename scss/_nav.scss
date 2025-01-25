@@ -1,16 +1,19 @@
 .nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding-bottom: 40px;
+    grid-column: 1 / 4;
+    grid-row: 1;
+
+    .nav-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: end;
+    }
 
     ul {
         display: flex;
     }
 
     li {
-        padding: 0 30px;
+        padding-left: 40px;
     }
 
     a {
